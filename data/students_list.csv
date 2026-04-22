@@ -1,0 +1,261 @@
+Klasse SJ25/26: ,Geschlecht,Name,Vorname,Datenschutzbogen vorhanden?,TN-Liste vorhanden?,Anzahl der vorhandenen Datenschutzbögen,Anzahl der vorhandenen TN-Listen,Anzahl Datenschutzbögen + TN-Listen,zuletzt bearbeitet am,zuletzt bearbeitet von,Kommentar,Name
+11,männlich,Borrmann,Nils,FALSE,FALSE,57,0,0,,,,Nils Borrmann
+11,weiblich,Böttcher,Maja Lea Juli,FALSE,FALSE,,,,,,,Maja Lea Juli Böttcher
+11,weiblich,Eckl,Julie Finja,TRUE,FALSE,,,,,,,Julie Finja Eckl
+11,weiblich,Höpfner,Elena Sophie,FALSE,FALSE,,,,,,,Elena Sophie Höpfner
+11,männlich,Mohr,Max Emil,FALSE,FALSE,,,,,,,Max Emil Mohr
+11,männlich,Peters,Emilio Hans,FALSE,FALSE,,,,,,,Emilio Hans Peters
+11,weiblich,Thiel,Emma June,TRUE,FALSE,,,,,,,Emma June Thiel
+11,weiblich,Biehler,Clara Zoé,FALSE,FALSE,,,,,,,Clara Zoé Biehler
+11,weiblich,Borgmeyer,Yujin Antonia,TRUE,FALSE,,,,,,,Yujin Antonia Borgmeyer
+11,männlich,Druet,Gabriel,FALSE,FALSE,,,,,,,Gabriel Druet
+11,männlich,Eich,Jeremy,FALSE,FALSE,,,,,,,Jeremy Eich
+11,weiblich,Feser,Fee Leonora,FALSE,FALSE,,,,,,,Fee Leonora Feser
+11,weiblich,Fock,Maria,FALSE,FALSE,,,,,,,Maria Fock
+11,weiblich,Girndt,Gwen Malina,FALSE,FALSE,,,,,,,Gwen Malina Girndt
+11,weiblich,Guckes,Friederike Luise,TRUE,FALSE,,,,,,,Friederike Luise Guckes
+11,weiblich,Guigue,Sophie,TRUE,FALSE,,,,,,,Sophie Guigue
+11,weiblich,Harms,Luisa,TRUE,FALSE,,,,,,,Luisa Harms
+11,männlich,Immelmann,Tizian,FALSE,FALSE,,,,,,,Tizian Immelmann
+11,männlich,Janiska,Benjamin,FALSE,FALSE,,,,,,,Benjamin Janiska
+11,weiblich,Joung,Mathilda You-Mi,FALSE,FALSE,,,,,,,Mathilda You-Mi Joung
+11,männlich,Kersting,Emile,FALSE,FALSE,,,,,,,Emile Kersting
+11,männlich,Knack,Benjamin,FALSE,FALSE,,,,,,,Benjamin Knack
+11,weiblich,Kunath,Mascha,TRUE,FALSE,,,,,,,Mascha Kunath
+11,weiblich,Lutterbach,Rosa Timea,FALSE,FALSE,,,,,,,Rosa Timea Lutterbach
+11,männlich,Madelin,Leo,TRUE,FALSE,,,,,,,Leo Madelin
+11,weiblich,Nyhues,Greta,FALSE,FALSE,,,,,,,Greta Nyhues
+11,weiblich,Pfäfflin,Elda,TRUE,FALSE,,,,,,,Elda Pfäfflin
+11,weiblich,Päßler,Fabia Ruth,FALSE,FALSE,,,,,,,Fabia Ruth Päßler
+11,weiblich,Schreiber,Nadia,FALSE,FALSE,,,,,,,Nadia Schreiber
+11,weiblich,Schwabe,Rosa Emilia,FALSE,FALSE,,,,,,,Rosa Emilia Schwabe
+11,weiblich,Seidel,Sophie Charlotte,FALSE,FALSE,,,,,,,Sophie Charlotte Seidel
+11,männlich,Tchernyi,Konstantin,TRUE,FALSE,,,,,,,Konstantin Tchernyi
+11,weiblich,Tebroke,Heidi Johanna,FALSE,FALSE,,,,,,,Heidi Johanna Tebroke
+11,weiblich,Voigt,Johanna Leni,FALSE,FALSE,,,,,,,Johanna Leni Voigt
+11,männlich,Weidner,Louis Quentin,TRUE,FALSE,,,,,,,Louis Quentin Weidner
+11,weiblich,Werner,Thea,FALSE,FALSE,,,,,,,Thea Werner
+11,männlich,Barth,Jonah Alexander,FALSE,FALSE,,,,,,,Jonah Alexander Barth
+11,weiblich,Bornemann,Paula Marie,TRUE,FALSE,,,,,,,Paula Marie Bornemann
+11,männlich,Conrad,Wolf Bastian,FALSE,FALSE,,,,,,,Wolf Bastian Conrad
+11,weiblich,Czajkowski,Carolin,FALSE,FALSE,,,,,,,Carolin Czajkowski
+11,weiblich,Droselti,Sophia Pauline,TRUE,FALSE,,,,,,,Sophia Pauline Droselti
+11,weiblich,Fiedorowicz,Helena Marta,FALSE,FALSE,,,,,,,Helena Marta Fiedorowicz
+11,männlich,Ghani,Ilyas Mathis,TRUE,FALSE,,,,,,,Ilyas Mathis Ghani
+11,männlich,Großmann,Nika Achilles,FALSE,FALSE,,,,,,,Nika Achilles Großmann
+11,männlich,Guagnin,Jakob Friedemann,FALSE,FALSE,,,,,,,Jakob Friedemann Guagnin
+11,weiblich,Gubisch,Helene,FALSE,FALSE,,,,,,,Helene Gubisch
+11,männlich,Happ,Elia,TRUE,FALSE,,,,,,,Elia Happ
+11,weiblich,Heide,Nathalie,TRUE,FALSE,,,,,,,Nathalie Heide
+11,weiblich,Jacobs,Anna Juliane,FALSE,FALSE,,,,,,,Anna Juliane Jacobs
+11,weiblich,Jansen,Ronja Maria,FALSE,FALSE,,,,,,,Ronja Maria Jansen
+11,männlich,Lindemann,Anton,FALSE,FALSE,,,,,,,Anton Lindemann
+11,weiblich,Münch,Charlotte,TRUE,FALSE,,,,,,,Charlotte Münch
+11,weiblich,Nedel,Marie Alice,FALSE,FALSE,,,,,,,Marie Alice Nedel
+11,weiblich,Nickel,Anna Helene,FALSE,FALSE,,,,,,,Anna Helene Nickel
+11,männlich,Pfannenberg,Golo Waldfried,FALSE,FALSE,,,,,,,Golo Waldfried Pfannenberg
+11,weiblich,Prinz,Matilda Kali Marlene,TRUE,FALSE,,,,,,,Matilda Kali Marlene Prinz
+11,weiblich,Reinsberg,Merle,TRUE,FALSE,,,,,,,Merle Reinsberg
+11,weiblich,Schafranka,Nina Florentine Liv,FALSE,FALSE,,,,,,,Nina Florentine Liv Schafranka
+11,weiblich,Veit,Aurelia Clara,TRUE,FALSE,,,,,,,Aurelia Clara Veit
+11,weiblich,Wehrens,Mascha Fenja,TRUE,FALSE,,,,,,,Mascha Fenja Wehrens
+11,weiblich,Werner,Marthe,FALSE,FALSE,,,,,,,Marthe Werner
+11,weiblich,Wessner,Anica Lucy,TRUE,FALSE,,,,,,,Anica Lucy Wessner
+11,weiblich,Yeremytsia,Sofiia,TRUE,FALSE,,,,,,,Sofiia Yeremytsia
+11,weiblich,Özen,Lale Johanna,TRUE,FALSE,,,,,,,Lale Johanna Özen
+11,männlich,Adenauer,Timon Noah,FALSE,FALSE,,,,,,,Timon Noah Adenauer
+11,männlich,Bonin,Ingmar Malte,FALSE,FALSE,,,,,,,Ingmar Malte Bonin
+11,weiblich,Flor,Mariko,TRUE,FALSE,,,,,,,Mariko Flor
+11,weiblich,Freitag,Luise Anna,FALSE,FALSE,,,,,,,Luise Anna Freitag
+11,weiblich,Glöer,Elsa,FALSE,FALSE,,,,,,,Elsa Glöer
+11,männlich,Klintworth,Alexander Karl Dietrich,FALSE,FALSE,,,,,,,Alexander Karl Dietrich Klintworth
+11,männlich,Kryla,Devrim Sinan,FALSE,FALSE,,,,,,,Devrim Sinan Kryla
+11,männlich,Langbehn,Matthis Christian,FALSE,FALSE,,,,,,,Matthis Christian Langbehn
+11,weiblich,Lassen,Emily,TRUE,FALSE,,,,,,,Emily Lassen
+11,weiblich,Meißies,Magdalena,FALSE,FALSE,,,,,,,Magdalena Meißies
+11,männlich,Melchior,Martino,FALSE,FALSE,,,,,,,Martino Melchior
+11,weiblich,Mischke,Charlotte,FALSE,FALSE,,,,,,,Charlotte Mischke
+11,männlich,Naumann,Karl,FALSE,FALSE,,,,,,,Karl Naumann
+11,weiblich,Neumann,Yara,FALSE,FALSE,,,,,,,Yara Neumann
+11,weiblich,Nguyen,Pham Minh Thy,TRUE,FALSE,,,,,,,Pham Minh Thy Nguyen
+11,weiblich,Perabo,Evelina,FALSE,FALSE,,,,,,,Evelina Perabo
+11,weiblich,Rasenberger,Rosalie,FALSE,FALSE,,,,,,,Rosalie Rasenberger
+11,männlich,Schneider,Johan Balthasar,FALSE,FALSE,,,,,,,Johan Balthasar Schneider
+11,männlich,Schwarz,Tim,FALSE,FALSE,,,,,,,Tim Schwarz
+11,männlich,Strobel,Conrad Max,TRUE,FALSE,,,,,,,Conrad Max Strobel
+11,männlich,Swoboda,Maxim,TRUE,FALSE,,,,,,,Maxim Swoboda
+11,weiblich,Thomas,Nike Julia,TRUE,FALSE,,,,,,,Nike Julia Thomas
+11,weiblich,Ulbrich,Leni Beatrice,FALSE,FALSE,,,,,,,Leni Beatrice Ulbrich
+11,weiblich,Wendt,Clara Leni,FALSE,FALSE,,,,,,,Clara Leni Wendt
+11,männlich,Witte,Simon,TRUE,FALSE,,,,,,,Simon Witte
+11,weiblich,Afshar,Zahra,FALSE,FALSE,,,,,,,Zahra Afshar
+11,weiblich,Bui,Quynh Chi,TRUE,FALSE,,,,,,,Quynh Chi Bui
+11,weiblich,Böttcher,Mia Lara Jenelle,FALSE,FALSE,,,,,,,Mia Lara Jenelle Böttcher
+11,männlich,Dollek,Finn,FALSE,FALSE,,,,,,,Finn Dollek
+11,weiblich,Ehrlich,Miriam,FALSE,FALSE,,,,,,,Miriam Ehrlich
+11,weiblich,Haubold,Iben Kashka,FALSE,FALSE,,,,,,,Iben Kashka Haubold
+11,weiblich,Held,Olivia,FALSE,FALSE,,,,,,,Olivia Held
+11,weiblich,Herrmann,Selma Luise,FALSE,FALSE,,,,,,,Selma Luise Herrmann
+11,weiblich,Houdelett,Charlotte,FALSE,FALSE,,,,,,,Charlotte Houdelett
+11,männlich,Hyland,Jim,FALSE,FALSE,,,,,,,Jim Hyland
+11,männlich,Jeremias,Arthur,FALSE,FALSE,,,,,,,Arthur Jeremias
+11,weiblich,Kluttig,Luise Henriette,TRUE,FALSE,,,,,,,Luise Henriette Kluttig
+11,männlich,Korpys,Maximilian,TRUE,FALSE,,,,,,,Maximilian Korpys
+11,weiblich,Kupfer,Zofia Carlotta,FALSE,FALSE,,,,,,,Zofia Carlotta Kupfer
+11,weiblich,Lehmann,Anne Maria,TRUE,FALSE,,,,,,,Anne Maria Lehmann
+11,männlich,Ludwig,Samuel Jonah,FALSE,FALSE,,,,,,,Samuel Jonah Ludwig
+11,weiblich,Martin,Clara,TRUE,FALSE,,,,,,,Clara Martin
+11,weiblich,Mayer-Tasch,Malou,FALSE,FALSE,,,,,,,Malou Mayer-Tasch
+11,männlich,Neymanns,Onno Jakob,TRUE,FALSE,,,,,,,Onno Jakob Neymanns
+11,weiblich,Rüter,Clara Linn,FALSE,FALSE,,,,,,,Clara Linn Rüter
+11,weiblich,Stammberger,Milla,FALSE,FALSE,,,,,,,Milla Stammberger
+11,männlich,Steinmann,Franz,FALSE,FALSE,,,,,,,Franz Steinmann
+11,weiblich,Voß,Karla Louise,TRUE,FALSE,,,,,,,Karla Louise Voß
+11,männlich,Wendt,Cornelius Friedrich,FALSE,FALSE,,,,,,,Cornelius Friedrich Wendt
+11,männlich,Winter,Constantin,TRUE,FALSE,,,,,,,Constantin Winter
+11,männlich,Abraham,Florian,FALSE,FALSE,,,,,,,Florian Abraham
+11,weiblich,Bergmann,Lilith Ira,TRUE,FALSE,,,,,,,Lilith Ira Bergmann
+11,weiblich,Black,Josefine Winnie,TRUE,FALSE,,,,,,,Josefine Winnie Black
+11,weiblich,Cibis,Celia Yolande Hilda,FALSE,FALSE,,,,,,,Celia Yolande Hilda Cibis
+11,weiblich,Feuerhahn,Filippa,FALSE,FALSE,,,,,,,Filippa Feuerhahn
+11,weiblich,Hayner,Karlotta,TRUE,FALSE,,,,,,,Karlotta Hayner
+11,weiblich,Hoffmeister,Mila,FALSE,FALSE,,,,,,,Mila Hoffmeister
+11,weiblich,Horntrich,Tilda Marlene,TRUE,FALSE,,,,,,,Tilda Marlene Horntrich
+11,männlich,Kawan,Linus Jens Wulf,TRUE,FALSE,,,,,,,Linus Jens Wulf Kawan
+11,weiblich,Lettow,Laura Amelie,TRUE,FALSE,,,,,,,Laura Amelie Lettow
+11,männlich,Klein,Tom Mukesh,FALSE,FALSE,,,,,,,Tom Mukesh Klein
+11,weiblich,Lozowicka,Maja,FALSE,FALSE,,,,,,,Maja Lozowicka
+11,männlich,Koeberlin,Felix,TRUE,FALSE,,,,,,,Felix Koeberlin
+11,männlich,Maaß,Maximilian,FALSE,FALSE,,,,,,,Maximilian Maaß
+11,weiblich,Matzky,Aivy Annalena,FALSE,FALSE,,,,,,,Aivy Annalena Matzky
+11,männlich,Schachner,Moritz,TRUE,FALSE,,,,,,,Moritz Schachner
+11,männlich,Orbitz,Artur,TRUE,FALSE,,,,,,,Artur Orbitz
+11,männlich,Lenz,Victor Elias,FALSE,FALSE,,,,,,,Victor Elias Lenz
+11,weiblich,Panholzer,Luise,TRUE,FALSE,,,,,,,Luise Panholzer
+11,weiblich,Ulmer,Finja Anike,FALSE,FALSE,,,,,,,Finja Anike Ulmer
+11,weiblich,Porsch,Elisa,TRUE,FALSE,,,,,,,Elisa Porsch
+11,männlich,Wehry,Jasper,FALSE,FALSE,,,,,,,Jasper Wehry
+11,weiblich,Wessel,Luzie Hanna,FALSE,FALSE,,,,,,,Luzie Hanna Wessel
+11,männlich,Rietz,Nicolas,FALSE,FALSE,,,,,,,Nicolas Rietz
+11,weiblich,Zielke,Charlotte Paulina,TRUE,FALSE,,,,,,,Charlotte Paulina Zielke
+11,männlich,Mayer,Arno Johannes,TRUE,FALSE,,,,,,,Arno Johannes Mayer
+11,männlich,Monath,Maximilian Wilhelm,FALSE,FALSE,,,,,,,Maximilian Wilhelm Monath
+11,weiblich,Güttler,Luisa Valentina,FALSE,FALSE,,,,,,,Luisa Valentina Güttler
+11,weiblich,Berndt,Martha Karoline,TRUE,FALSE,,,,,,,Martha Karoline Berndt
+11,weiblich,Sier,Elizabeth Gretchen,TRUE,FALSE,,,,,,,Elizabeth Gretchen Sier
+11,weiblich,Yilmaz,Ava Ilayda,TRUE,FALSE,,,,,,,Ava Ilayda Yilmaz
+11,männlich,Boi,Beni Jacob,FALSE,FALSE,,,,,,,Beni Jacob Boi
+11,weiblich,Paschotta,Eline Marie Sophie Isolde,TRUE,FALSE,,,,,,,Eline Marie Sophie Isolde Paschotta
+11,weiblich,Mishra,Nora Josefine,FALSE,FALSE,,,,,,,Nora Josefine Mishra
+11,weiblich,Misgeld,Malina Ike,FALSE,FALSE,,,,,,,Malina Ike Misgeld
+11,weiblich,Rissenbeck,Anouk Johanna Elisabeth,FALSE,FALSE,,,,,,,Anouk Johanna Elisabeth Rissenbeck
+11,weiblich,Labahn,Clara Feline,FALSE,FALSE,,,,,,,Clara Feline Labahn
+11,weiblich,Zeidler,Olivia,TRUE,FALSE,,,,,,,Olivia Zeidler
+11,männlich,Kleber,Franz Tanay Valentin,FALSE,FALSE,,,,,,,Franz Tanay Valentin Kleber
+11,weiblich,Andreasjan,Feofania,FALSE,FALSE,,,,,,,Feofania Andreasjan
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,, 
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
+,,,,FALSE,FALSE,,,,,,,
