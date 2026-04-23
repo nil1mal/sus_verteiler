@@ -1,14 +1,14 @@
-name,capacity
-ABB,20
-Berliner Wasserbetriebe,20
-Gesobau,25
-Sparkasse,15
-Hilton Hotel,15
-Computacenter,10
-Ausbildungsoffensive Infrastruktur,20
-Caritas Krankenhaus,20
-IHK Berlin,15
-Bundesministerium für Wirtschaft und Energie,20
-Yorck Kino Gruppe,15
-Berlin Global Village,15
-Mosaik Berlin,20
+name,max,min,genau
+ABB,20,13,0
+Berliner Wasserbetriebe,20,0,0
+Gesobau,15,10,0
+Sparkasse,15,0,15
+Hilton Hotel,15,0,0
+Computacenter,0,0,0
+Ausbildungsoffensive Infrastruktur,0,0,0
+Caritas Krankenhaus,20,0,0
+IHK Berlin,10,7,0
+Bundesministerium für Wirtschaft und Energie,20,0,19
+Yorck Kino Gruppe,15,0,0
+Berlin Global Village,0,0,0
+Mosaik Berlin,20,10,0

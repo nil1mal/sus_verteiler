@@ -157,25 +157,25 @@ capacity("ABB",20).
 company("Berliner Wasserbetriebe").
 capacity("Berliner Wasserbetriebe",20).
 company("Gesobau").
-capacity("Gesobau",25).
+capacity("Gesobau",15).
 company("Sparkasse").
 capacity("Sparkasse",15).
 company("Hilton Hotel").
 capacity("Hilton Hotel",15).
 company("Computacenter").
-capacity("Computacenter",10).
+capacity("Computacenter",0).
 company("Ausbildungsoffensive Infrastruktur").
-capacity("Ausbildungsoffensive Infrastruktur",20).
+capacity("Ausbildungsoffensive Infrastruktur",0).
 company("Caritas Krankenhaus").
 capacity("Caritas Krankenhaus",20).
 company("IHK Berlin").
-capacity("IHK Berlin",15).
+capacity("IHK Berlin",10).
 company("Bundesministerium für Wirtschaft und Energie").
 capacity("Bundesministerium für Wirtschaft und Energie",20).
 company("Yorck Kino Gruppe").
 capacity("Yorck Kino Gruppe",15).
 company("Berlin Global Village").
-capacity("Berlin Global Village",15).
+capacity("Berlin Global Village",0).
 company("Mosaik Berlin").
 capacity("Mosaik Berlin",20).
 pref("florian_abraham","ABB",5).
@@ -711,6 +711,19 @@ pref("charlotte_houdelett","Bundesministerium für Wirtschaft und Energie",5).
 pref("charlotte_houdelett","Yorck Kino Gruppe",2).
 pref("charlotte_houdelett","Berlin Global Village",5).
 pref("charlotte_houdelett","Mosaik Berlin",5).
+pref("elena_hopfner","ABB",4).
+pref("elena_hopfner","Berliner Wasserbetriebe",4).
+pref("elena_hopfner","Gesobau",3).
+pref("elena_hopfner","Sparkasse",3).
+pref("elena_hopfner","Hilton Hotel",2).
+pref("elena_hopfner","Computacenter",4).
+pref("elena_hopfner","Ausbildungsoffensive Infrastruktur",2).
+pref("elena_hopfner","Caritas Krankenhaus",1).
+pref("elena_hopfner","IHK Berlin",1).
+pref("elena_hopfner","Bundesministerium für Wirtschaft und Energie",3).
+pref("elena_hopfner","Yorck Kino Gruppe",2).
+pref("elena_hopfner","Berlin Global Village",2).
+pref("elena_hopfner","Mosaik Berlin",2).
 pref("tizian_immelmann","ABB",3).
 pref("tizian_immelmann","Berliner Wasserbetriebe",2).
 pref("tizian_immelmann","Gesobau",4).
