@@ -239,7 +239,7 @@ print("\n".join(config_lines))
 # =========================
 result = subprocess.run(
     ["clingo", "data.lp", "config.lp", "model.lp",
-     "--opt-mode=optN", "--time-limit=1200", "-t 4"],
+     "--opt-mode=optN", "--time-limit=3000", "-t 4"],
     capture_output=True,
     text=True
 )
