@@ -1,0 +1,83 @@
+2026-05-28 14:05:02,714 [INFO] Starting pipeline [mode=multi]
+2026-05-28 14:05:02,714 [INFO] Using timeout: 900 seconds
+2026-05-28 14:05:02,714 [INFO] Using 4 threads
+2026-05-28 14:05:02,714 [INFO] Loading CSV files from ./data/0206/
+2026-05-28 14:05:02,716 [INFO] Multi-day mode: loading companies and prefs from flags
+2026-05-28 14:05:02,717 [INFO] Day 1 companies: 4 | path: ./data/0206/company_list.csv
+2026-05-28 14:05:02,718 [INFO] Day 2 companies: 4 | path: ./data/0406/company_list.csv
+2026-05-28 14:05:02,720 [INFO] Day 1 prefs: 14 students | path: ./data/0206/students_elections.csv
+2026-05-28 14:05:02,721 [INFO] Day 2 prefs: 37 students | path: ./data/0406/students_elections.csv
+2026-05-28 14:05:02,722 [INFO] Preparing student data
+2026-05-28 14:05:02,725 [INFO] Total students after cleaning: 134
+2026-05-28 14:05:02,728 [INFO] Merging student and preference data
+2026-05-28 14:05:02,731 [INFO] Generating ASP facts (data.lp)
+2026-05-28 14:05:02,732 [INFO] Companies: 8 | Max capacity: 20 | Total spots: 140
+2026-05-28 14:05:02,741 [INFO] Loading rules from ./data/rules.json
+2026-05-28 14:05:02,742 [INFO] config.lp generated
+2026-05-28 14:05:02,742 [INFO] Running Clingo with timeout=900 seconds
+2026-05-28 14:05:22,454 [INFO] Starting pipeline [mode=multi]
+2026-05-28 14:05:22,454 [INFO] Using timeout: 1800 seconds
+2026-05-28 14:05:22,455 [INFO] Using 4 threads
+2026-05-28 14:05:22,455 [INFO] Loading CSV files from ./data/0206/
+2026-05-28 14:05:22,458 [INFO] Multi-day mode: loading companies and prefs from flags
+2026-05-28 14:05:22,460 [INFO] Day 1 companies: 4 | path: ./data/0206/company_list.csv
+2026-05-28 14:05:22,462 [INFO] Day 2 companies: 4 | path: ./data/0406/company_list.csv
+2026-05-28 14:05:22,465 [INFO] Day 1 prefs: 14 students | path: ./data/0206/students_elections.csv
+2026-05-28 14:05:22,467 [INFO] Day 2 prefs: 37 students | path: ./data/0406/students_elections.csv
+2026-05-28 14:05:22,470 [INFO] Preparing student data
+2026-05-28 14:05:22,476 [INFO] Total students after cleaning: 134
+2026-05-28 14:05:22,481 [INFO] Merging student and preference data
+2026-05-28 14:05:22,489 [INFO] Generating ASP facts (data.lp)
+2026-05-28 14:05:22,490 [INFO] Companies: 8 | Max capacity: 20 | Total spots: 140
+2026-05-28 14:05:22,506 [INFO] Loading rules from ./data/rules.json
+2026-05-28 14:05:22,507 [INFO] config.lp generated
+2026-05-28 14:05:22,508 [INFO] Running Clingo with timeout=1800 seconds
+2026-05-28 14:06:04,523 [INFO] Starting pipeline [mode=multi]
+2026-05-28 14:06:04,524 [INFO] Using timeout: 300 seconds
+2026-05-28 14:06:04,524 [INFO] Using 4 threads
+2026-05-28 14:06:04,524 [INFO] Loading CSV files from ./data/0206/
+2026-05-28 14:06:04,533 [INFO] Multi-day mode: loading companies and prefs from flags
+2026-05-28 14:06:04,541 [INFO] Day 1 companies: 4 | path: ./data/0206/company_list.csv
+2026-05-28 14:06:04,546 [INFO] Day 2 companies: 4 | path: ./data/0406/company_list.csv
+2026-05-28 14:06:04,550 [INFO] Day 1 prefs: 14 students | path: ./data/0206/students_elections.csv
+2026-05-28 14:06:04,553 [INFO] Day 2 prefs: 37 students | path: ./data/0406/students_elections.csv
+2026-05-28 14:06:04,560 [INFO] Preparing student data
+2026-05-28 14:06:04,576 [INFO] Total students after cleaning: 134
+2026-05-28 14:06:04,582 [INFO] Merging student and preference data
+2026-05-28 14:06:04,593 [INFO] Generating ASP facts (data.lp)
+2026-05-28 14:06:04,594 [INFO] Companies: 8 | Max capacity: 20 | Total spots: 140
+2026-05-28 14:06:04,614 [INFO] Loading rules from ./data/rules.json
+2026-05-28 14:06:04,616 [INFO] config.lp generated
+2026-05-28 14:06:04,616 [INFO] Running Clingo with timeout=300 seconds
+2026-05-28 14:06:34,235 [INFO] Starting pipeline [mode=multi]
+2026-05-28 14:06:34,236 [INFO] Using timeout: 600 seconds
+2026-05-28 14:06:34,236 [INFO] Using 4 threads
+2026-05-28 14:06:34,236 [INFO] Loading CSV files from ./data/0206/
+2026-05-28 14:06:34,240 [INFO] Multi-day mode: loading companies and prefs from flags
+2026-05-28 14:06:34,242 [INFO] Day 1 companies: 4 | path: ./data/0206/company_list.csv
+2026-05-28 14:06:34,244 [INFO] Day 2 companies: 4 | path: ./data/0406/company_list.csv
+2026-05-28 14:06:34,247 [INFO] Day 1 prefs: 14 students | path: ./data/0206/students_elections.csv
+2026-05-28 14:06:34,249 [INFO] Day 2 prefs: 37 students | path: ./data/0406/students_elections.csv
+2026-05-28 14:06:34,252 [INFO] Preparing student data
+2026-05-28 14:06:34,258 [INFO] Total students after cleaning: 134
+2026-05-28 14:06:34,266 [INFO] Merging student and preference data
+2026-05-28 14:06:34,283 [INFO] Generating ASP facts (data.lp)
+2026-05-28 14:06:34,284 [INFO] Companies: 8 | Max capacity: 20 | Total spots: 140
+2026-05-28 14:06:34,324 [INFO] Loading rules from ./data/rules.json
+2026-05-28 14:06:34,327 [INFO] config.lp generated
+2026-05-28 14:06:34,329 [INFO] Running Clingo with timeout=600 seconds
+2026-05-28 14:11:04,690 [INFO] Clingo finished
+2026-05-28 14:11:04,690 [WARNING] Clingo returned non-zero exit code
+2026-05-28 14:11:04,690 [INFO] Parsing Clingo output
+2026-05-28 14:11:04,691 [INFO] Assignments extracted: 134
+2026-05-28 14:11:04,726 [INFO] Pipeline finished successfully
+2026-05-28 14:16:34,379 [INFO] Clingo finished
+2026-05-28 14:16:34,380 [WARNING] Clingo returned non-zero exit code
+2026-05-28 14:16:34,380 [INFO] Parsing Clingo output
+2026-05-28 14:16:34,380 [INFO] Assignments extracted: 134
+2026-05-28 14:16:34,391 [INFO] Pipeline finished successfully
+2026-05-28 14:20:02,790 [INFO] Clingo finished
+2026-05-28 14:20:02,791 [WARNING] Clingo returned non-zero exit code
+2026-05-28 14:20:02,791 [INFO] Parsing Clingo output
+2026-05-28 14:20:02,791 [INFO] Assignments extracted: 134
+2026-05-28 14:20:02,813 [INFO] Pipeline finished successfully

@@ -1,15 +1,53 @@
 from utils.logging_config import setup_logging
 import logging
-import argparse
 
 from utils.asp_generator import generate_asp, generate_config, load_rules
 from utils.data_processing import load_data, prepare_data
-from utils.asp_generator import generate_asp, generate_config
 from utils.solver import run_clingo
 from utils.parser import parse_clingo_output, map_ids_to_names, save_output
+import argparse
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Student assignment pipeline")
+
+    parser.add_argument(
+        "--exp_name",
+        type=str,
+        default=None,
+        required=False,
+        help="Experiment name (optional)"
+    )
+
+    parser.add_argument(
+        "--input_folder",
+        type=str,
+        default="./data/",
+        help="Input folder (default: ./data/)"
+    )
+
+    parser.add_argument(
+        "--mode",
+        type=str,
+        choices=["single", "multi"],
+        default="single",
+        help="Assignment mode: single day (default) or multi day"
+    )
+
+    parser.add_argument(
+        "--companies",
+        type=str,
+        nargs="+",
+        default=None,
+        help="Paths to company CSVs per day (required if --mode multi, e.g. --companies d1.csv d2.csv)"
+    )
+
+    parser.add_argument(
+        "--prefs",
+        type=str,
+        nargs="+",
+        default=None,
+        help="Paths to preference CSVs per day (required if --mode multi, e.g. --prefs d1_prefs.csv d2_prefs.csv)"
+    )
 
     parser.add_argument(
         "--timeout",
@@ -35,21 +73,32 @@ def parse_args():
 
 def main():
     args = parse_args()
-    
+
     if args.timeout <= 0:
         raise ValueError("--timeout must be a positive integer")
 
-    log_level = logging.DEBUG if args.debug else logging.INFO
-    setup_logging(log_level)
+    if args.mode == "multi":
+        if not args.companies or not args.prefs:
+            raise ValueError("--mode multi requires --companies and --prefs")
+        if len(args.companies) != len(args.prefs):
+            raise ValueError("--companies and --prefs must have the same number of paths")
 
-    logging.info("Starting pipeline")
+    log_level = logging.DEBUG if args.debug else logging.INFO
+    setup_logging(args.exp_name, log_level)
+
+    logging.info("Starting pipeline [mode=%s]", args.mode)
     logging.info("Using timeout: %s seconds", args.timeout)
     logging.info("Using %s threads", args.threads)
 
-    students, prefs, companies = load_data()
+    students, prefs, companies = load_data(
+        args.input_folder,
+        mode=args.mode,
+        companies_paths=args.companies,
+        prefs_paths=args.prefs
+    )
     final_df, students_df = prepare_data(students, prefs)
 
-    generate_asp(final_df, companies)
+    generate_asp(final_df, companies, mode=args.mode)
     rules = load_rules()
     generate_config(companies, rules)
 
@@ -58,7 +107,7 @@ def main():
     assignments = parse_clingo_output(output)
     final_assignments = map_ids_to_names(assignments, students_df)
 
-    save_output(final_assignments)
+    save_output(final_assignments, args.exp_name)
 
     logging.info("Pipeline finished successfully")
 

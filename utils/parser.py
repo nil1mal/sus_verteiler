@@ -1,6 +1,7 @@
 import re
 import pandas as pd
 import logging
+from datetime import datetime
 
 def parse_clingo_output(output: str) -> pd.DataFrame:
     logging.info("Parsing Clingo output")
@@ -45,5 +46,10 @@ def map_ids_to_names(assignments, students_df):
     )[["Vorname", "Nachname", "company"]]
 
 
-def save_output(df):
-    df.to_csv("assignments.csv", index=False)
+def save_output(df, exp_name: str):
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    if exp_name:
+        filename = f"./results/assignments_{exp_name}_{date_str}.csv"
+        df.to_csv(filename, index=False)
+    else:
+        df.to_csv(f"./results/assignments_{date_str}.csv", index=False)

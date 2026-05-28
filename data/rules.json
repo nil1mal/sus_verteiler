@@ -1,10 +1,5 @@
 {
   "min_per_company": 7,
-  "max_prio": {
-    "Caritas": 2
-  },
-  "fill_first": {
-    "Gesobau": 20,
-    "ABB": 10
-  }
+  "max_prio": {},
+  "fill_first": {}
 }

@@ -1,22 +1,49 @@
 import pandas as pd
 import unicodedata
 import logging
+import os
 
-def load_data(): 
-    # TODO: Connect Google Sheets
-    logging.info("Loading CSV files")
-    students = pd.read_csv('./data/students_list.csv')
-    prefs = pd.read_csv('./data/students_elections.csv')
-    companies = pd.read_csv('./data/company_list.csv')
+def load_data(folder: str, mode: str = "single", companies_paths: list = None, prefs_paths: list = None):
+    logging.info(f"Loading CSV files from {folder}")
+
+    students = pd.read_csv(os.path.join(folder, "students_list.csv"))
+
+    if mode == "multi":
+        logging.info("Multi-day mode: loading companies and prefs from flags")
+
+        companies_dfs = []
+        for i, path in enumerate(companies_paths, start=1):
+            df = pd.read_csv(path)
+            df["day"] = i
+            companies_dfs.append(df)
+            logging.info(f"Day {i} companies: {len(df)} | path: {path}")
+        companies = pd.concat(companies_dfs, ignore_index=True)
+
+        prefs_dfs = []
+        for i, path in enumerate(prefs_paths, start=1):
+            df = pd.read_csv(path)
+            df["day"] = i
+            prefs_dfs.append(df)
+            logging.info(f"Day {i} prefs: {len(df)} students | path: {path}")
+        prefs = pd.concat(prefs_dfs, ignore_index=True)
+
+    else:
+        prefs = pd.read_csv(os.path.join(folder, "students_elections.csv"))
+        companies = pd.read_csv(os.path.join(folder, "company_list.csv"))
+        companies["day"] = 1
+
     return students, prefs, companies
+
 
 def clean_first_name(v: str) -> str:
     return str(v).strip().split()[0]
+
 
 def normalize(text: str) -> str:
     text = str(text).lower().strip()
     text = unicodedata.normalize('NFKD', text)
     return "".join(c for c in text if not unicodedata.combining(c))
+
 
 def prepare_data(students, prefs):
     # --- students ---
@@ -36,6 +63,7 @@ def prepare_data(students, prefs):
     ).apply(normalize)
 
     logging.info("Total students after cleaning: %d", len(students_df))
+
     # --- prefs ---
     prefs_df = prefs.iloc[:, 1:].copy()
     prefs_df = prefs_df.sort_values(by="Nachname").reset_index(drop=True)
@@ -52,7 +80,7 @@ def prepare_data(students, prefs):
     if missing > 0:
         logging.warning("Missing preference matches: %d", missing)
 
-    meta_cols = {"Vorname", "Nachname", "vor_clean", "id"}
+    meta_cols = {"Vorname", "Nachname", "vor_clean", "id", "day"}
     company_cols = [c for c in prefs_df.columns if c not in meta_cols]
 
     final_df = merged[

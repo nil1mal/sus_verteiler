@@ -16,18 +16,33 @@ def load_rules(path="./data/rules.json"):
 
     return rules
 
-def generate_asp(final_df, companies):
+
+def generate_asp(final_df, companies, mode: str = "single"):
     logging.info("Generating ASP facts (data.lp)")
+    logging.info(f"Companies: {len(companies)} | Max capacity: {int(companies['max'].max())} | Total spots: {int(companies['max'].sum())}")
+
     lines = []
+
+    # mode fact
+    lines.append(f'mode("{mode}").')
+    lines.append("")
+
+    # days
+    for day in sorted(companies["day"].unique()):
+        lines.append(f'day({int(day)}).')
+    lines.append("")
 
     # students
     for sid in final_df["id"]:
         lines.append(f'student("{sid}").')
+    lines.append("")
 
     # companies
     for _, row in companies.iterrows():
         lines.append(f'company("{row["name"]}").')
         lines.append(f'capacity("{row["name"]}",{int(row["max"])}).')
+        lines.append(f'company_day("{row["name"]}",{int(row["day"])}).')
+    lines.append("")
 
     # preferences
     meta_cols = {"id", "Vorname", "Nachname"}
@@ -41,6 +56,7 @@ def generate_asp(final_df, companies):
 
     with open("data.lp", "w") as f:
         f.write("\n".join(lines))
+
 
 def generate_config(companies, rules):
     real_names = companies["name"].tolist()
