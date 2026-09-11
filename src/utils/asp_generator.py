@@ -18,7 +18,7 @@ def load_rules(path="./data/rules.json"):
 
 
 def generate_asp(final_df, companies, mode: str = "single"):
-    logging.info("Generating ASP facts (data.lp)")
+    logging.info("Generating ASP facts (src/data.lp)")
     logging.info(f"Companies: {len(companies)} | Max capacity: {int(companies['max'].max())} | Total spots: {int(companies['max'].sum())}")
 
     lines = []
@@ -54,7 +54,7 @@ def generate_asp(final_df, companies, mode: str = "single"):
             if val > 0:
                 lines.append(f'pref("{row["id"]}","{c}",{int(val)}).')
 
-    with open("data.lp", "w") as f:
+    with open("src/data.lp", "w") as f:
         f.write("\n".join(lines))
 
 
@@ -97,7 +97,7 @@ def generate_config(companies, rules):
         company = resolve(key)
         lines.append(f'fill_first("{company}",{val}).')
 
-    with open("config.lp", "w") as f:
+    with open("src/config.lp", "w") as f:
         f.write("\n".join(lines))
 
-    logging.info("config.lp generated")
+    logging.info("src/config.lp generated")

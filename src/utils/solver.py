@@ -10,9 +10,9 @@ def run_clingo(timeout: int = 3000, threads: int = 4, multi: bool = False):
             result = subprocess.run(
             [
                 "clingo",
-                "data.lp",
-                "config.lp",
-                "model_multi.lp",
+                "src/data.lp",
+                "src/config.lp",
+                "src/model_multi.lp",
                 "--opt-mode=optN",
                 f"--time-limit={timeout}",
                 "-t", f"{threads}"
@@ -24,9 +24,9 @@ def run_clingo(timeout: int = 3000, threads: int = 4, multi: bool = False):
             result = subprocess.run(
                 [
                     "clingo",
-                    "data.lp",
-                    "config.lp",
-                    "model.lp",
+                    "src/data.lp",
+                    "src/config.lp",
+                    "src/model.lp",
                     "--opt-mode=optN",
                     f"--time-limit={timeout}",
                     "-t", f"{threads}"

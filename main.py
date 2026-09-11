@@ -1,10 +1,10 @@
-from utils.logging_config import setup_logging
+from src.utils.logging_config import setup_logging
 import logging
 
-from utils.asp_generator import generate_asp, generate_config, load_rules
-from utils.data_processing import load_data, prepare_data
-from utils.solver import run_clingo
-from utils.parser import parse_clingo_output, map_ids_to_names, save_output
+from src.utils.asp_generator import generate_asp, generate_config, load_rules
+from src.utils.data_processing import load_data, prepare_data
+from src.utils.solver import run_clingo
+from src.utils.parser import parse_clingo_output, map_ids_to_names, save_output
 import argparse
 
 def parse_args():

@@ -1,13 +1,13 @@
 # Student Internship Assignment (ASP + Clingo)
 
-Assigns students to internship companies based on preferences using **Answer Set Programming (ASP)** with **Clingo**.
+Assigns students to internship companies based on preferences using **Clingo** and **Python**.
 
 ---
 
 ## 📌 Overview
 
 **Input:**
-- Students  
+- One student list  
 - Student preferences (optional)  
 - Companies with capacities  
 
@@ -21,10 +21,13 @@ Assign every student while maximizing preference satisfaction and respecting con
 ```
 project/
 ├── main.py
-├── rules.json
-├── utils/
 ├── data/
-├── model.lp
+│   ├── folder_with_csvs/ (manual input)
+│   └── rules.json        (manual input)
+├── logs/
+├── results/
+├── src/
+│   └── utils/
 └── README.md
 ```
 
@@ -76,7 +79,33 @@ python main.py --timeout 120 --debug
 ```
 
 - `--timeout` → solver time limit (seconds)  
+- `--threads` → number of Clingo solver threads  
 - `--debug` → verbose logging  
+
+---
+
+## 📅 Multi-Day Mode
+
+Multi-day mode assigns the same students across multiple available days.
+
+There is **one shared student list**. Each day has its own company and preference file.
+```
+python main.py --mode multi \
+  --companies companies_day1.csv companies_day2.csv \
+  --prefs prefs_day1.csv prefs_day2.csv
+```
+
+The files are matched by their order:
+```
+Student list (shared)
+        │
+        ├── Day 1 → companies_day1.csv + prefs_day1.csv
+        │
+        └── Day 2 → companies_day2.csv + prefs_day2.csv
+```
+The number of company files and preference files must be identical.
+
+The solver assigns **each student to exactly one day and one company**, while respecting the capacities and preferences available on that day.
 
 ---
 
@@ -97,6 +126,7 @@ Florian,Abraham,ABB
 - All students are assigned (even without preferences)  
 - Missing preferences = `0`  
 - Rules use fuzzy company name matching  
+- In multi-day mode, the student list is shared across all days
 
 ---
 
@@ -109,7 +139,8 @@ Florian,Abraham,ABB
 
 ## ✅ Status
 
-✔ Modular structure  
-✔ Configurable rules  
-✔ Logging & CLI support  
-✔ Optimal assignment generation  
+✔ Modular structure
+✔ Configurable rules
+✔ Single- and multi-day assignment
+✔ Logging & CLI support
+✔ Optimal assignment generation
