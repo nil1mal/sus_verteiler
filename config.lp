@@ -1,7 +1,7 @@
 % auto-generated
 % edit rules.json instead of this file
 
-min_per_company(7).
-exact_count("Bundesministerium für Wirtschaft und Energie (0206)",19).
-company_min("Amtsgericht Kreuzberg",10).
-exact_count("Bundesministerium für Wirtschaft und Energie (0406)",19).
+min_per_company(9).
+fill_first("GuK Technische Gummi und Kunststoffe GmbH",30).
+fill_first("REWE",20).
+fill_first("computacenter",10).

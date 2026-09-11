@@ -1,5 +1,5 @@
 {
-  "min_per_company": 7,
+  "min_per_company": 9,
   "max_prio": {},
-  "fill_first": {}
+  "fill_first": {"GuK Technische Gummi und Kunststoffe GmbH": 30, "REWE": 20, "computacenter": 10}
 }
